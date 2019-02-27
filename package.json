@@ -1,0 +1,21 @@
+{
+  "name": "protractor-sample",
+  "version": "1.0.0",
+  "description": "This project is to demonstrate a demo of protractor.",
+  "main": "configuration.js",
+  "scripts": {
+    "start": "protractor configuration.js"
+  },
+  "author": "Tushar Agarwal",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-spec-reporter": "^4.2.1",
+    "node-fetch": "^2.3.0",
+    "protractor": "^5.4.2",
+    "protractor-http-client": "^1.0.4",
+    "restler": "^3.4.0"
+  },
+  "dependencies": {
+    "fetch-api": "0.0.2"
+  }
+}
