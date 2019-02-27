@@ -4,7 +4,7 @@ let SpecReporter = require('jasmine-spec-reporter').SpecReporter;
 exports.config = {
     directConnect: 'true',
     specs: './src/main/specifications/*.js',
-	framework: 'jasmine3',
+	framework: 'jasmine2',
 	jasmineNodeOpts: {
     showColors: true,
         defaultTimeoutInterval: 360000,// Use colors in the command line report.
